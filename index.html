@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="root">
+    <!-- Signup Page -->
+    <div id="signup-page" class="page">
+      <h1>Signup</h1>
+      <div id="signup-message"></div>
+      <form id="signup-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <!-- Profile Page -->
+    <div id="profile-page" class="page">
+      <h1>Profile</h1>
+      <div id="profile-details"></div>
+      <button id="logout-btn">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
